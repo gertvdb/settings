@@ -1,0 +1,8 @@
+settings.settings:
+  title: 'Settings'
+  route_name: settings.settings
+  description: 'a collection of general settings for the website'
+  parent: system.admin
+  weight: 100
+
+

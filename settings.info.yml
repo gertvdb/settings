@@ -1,0 +1,6 @@
+name: Settings
+type: module
+description: Provide a collection of general website setting and a way to manage them.
+core_version_requirement: ^8.7.7 || ^9
+package: Settings
+

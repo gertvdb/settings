@@ -1,0 +1,5 @@
+access settings:
+  title: 'Access settings'
+  description: 'Access the general settings page'
+  restrict access: true
+

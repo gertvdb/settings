@@ -1,0 +1,5 @@
+administer branding settings:
+  title: 'Administer branding settings'
+  description: 'Administer the branding settings page'
+  restrict access: true
+

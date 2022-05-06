@@ -1,0 +1,9 @@
+settings_communication.settings:
+  path: '/admin/settings/communication'
+  defaults:
+    _form: '\Drupal\settings_communication\Form\CommunicationSettingsForm'
+    _title: 'Communication'
+  requirements:
+    _permission: 'administer communication settings'
+  options:
+    _admin_route: TRUE

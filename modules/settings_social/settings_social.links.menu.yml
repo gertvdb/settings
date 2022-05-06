@@ -1,0 +1,8 @@
+settings_social.settings:
+  title: 'Socials'
+  route_name: settings_social.settings
+  description: 'a collection of social settings for the website'
+  parent: settings.settings
+  weight: 100
+
+

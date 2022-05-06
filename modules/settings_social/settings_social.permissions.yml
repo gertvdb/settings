@@ -1,0 +1,5 @@
+administer social settings:
+  title: 'Administer social settings'
+  description: 'Administer the social settings page'
+  restrict access: true
+

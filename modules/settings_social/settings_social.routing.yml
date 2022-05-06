@@ -1,0 +1,9 @@
+settings_social.settings:
+  path: '/admin/settings/socials'
+  defaults:
+    _form: '\Drupal\settings_social\Form\SocialSettingsForm'
+    _title: 'Socials'
+  requirements:
+    _permission: 'administer social settings'
+  options:
+    _admin_route: TRUE

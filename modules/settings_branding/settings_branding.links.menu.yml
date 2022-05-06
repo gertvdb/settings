@@ -1,0 +1,8 @@
+settings_branding.settings:
+  title: 'Branding'
+  route_name: settings_branding.settings
+  description: 'a collection of branding settings for the website'
+  parent: settings.settings
+  weight: 100
+
+

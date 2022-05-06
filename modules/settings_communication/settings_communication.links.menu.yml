@@ -1,0 +1,8 @@
+settings_communication.settings:
+  title: 'Communication'
+  route_name: settings_communication.settings
+  description: 'a collection of communication settings for the website'
+  parent: settings.settings
+  weight: 100
+
+

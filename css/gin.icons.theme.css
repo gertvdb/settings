@@ -1,0 +1,4 @@
+.toolbar .toolbar-bar .toolbar-icon.toolbar-icon-settings-settings:before {
+  -webkit-mask-image: url(../images/gin/toolbar.svg);
+  mask-image: url(../images/gin/toolbar.svg);
+}

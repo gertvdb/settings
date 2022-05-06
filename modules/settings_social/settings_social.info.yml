@@ -1,0 +1,7 @@
+name: Settings - Social
+type: module
+description: Provide a collection social media settings and a way to manage them.
+core_version_requirement: ^8.7.7 || ^9
+package: Settings
+dependencies:
+  settings:settings

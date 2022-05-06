@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_element_info_alter().
+ */
+function settings_element_info_alter(array &$types) {
+  // Attach our extra CSS for toolbar icons.
+  if (isset($types['toolbar'])) {
+    $types['toolbar']['#attached']['library'][] = 'settings/toolbar';
+    $types['toolbar']['#attached']['library'][] = 'settings/gin';
+  }
+
+}

@@ -1,0 +1,9 @@
+settings_branding.settings:
+  path: '/admin/settings/branding'
+  defaults:
+    _form: '\Drupal\settings_branding\Form\BrandingSettingsForm'
+    _title: 'Branding'
+  requirements:
+    _permission: 'administer branding settings'
+  options:
+    _admin_route: TRUE

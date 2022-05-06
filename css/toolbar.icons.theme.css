@@ -1,0 +1,27 @@
+
+/**
+ * Admin toolbar
+ */
+.toolbar-icon-settings-settings:before {
+    background-image: url(../images/icons/787878/toolbar.svg);
+}
+.toolbar-icon-settings-settings:active:before,
+.toolbar-icon-settings-settings.is-active:before {
+    background-image: url(../images/icons/000000/toolbar.svg);
+}
+
+
+/**
+ * Adminimal toolbar
+ */
+.adminimal-admin-toolbar .toolbar-icon-settings-settings:before {
+    background-image: url(../images/icons/acacac/toolbar.svg);
+}
+
+.adminimal-admin-toolbar .toolbar-tray-horizontal .menu-item--expanded:hover .toolbar-icon-settings-settings:before,
+.adminimal-admin-toolbar .toolbar-icon-settings-settings:hover:before,
+.adminimal-admin-toolbar .toolbar-icon-settings-settings:active:before,
+.adminimal-admin-toolbar .toolbar-icon-settings-settings.is-active:before {
+    background-image: url(../images/icons/ffffff/toolbar.svg);
+
+}
