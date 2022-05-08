@@ -21,5 +21,13 @@
       "vendor/drupal/{$name}": ["drupal/core"],
       "vendor/drupal/hook_event_dispatcher": ["drupal/hook_event_dispatcher"]
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\settings\\": "src/",
+      "Drupal\\settings_branding\\": "modules/settings_branding/src/",
+      "Drupal\\settings_communication\\": "modules/settings_communication/src/",
+      "Drupal\\settings_social\\": "modules/settings_social/src/"
+    }
   }
 }
